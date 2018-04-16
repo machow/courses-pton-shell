@@ -244,6 +244,19 @@ repl.run_command("clear history")
 
 `@solution`
 ```{shell}
+# the creatures folder was mispelled!
+# find what it was named
+ls
+
+# change it back to "creatures"
+mv cratures creatures
+
+# move the cubane.pdb from the molecules folder to your home folder
+mv molecules/cubane.pdb ~
+
+# move two files to another folder in a single command
+mv data/amino-acids.txt data/animals.txt molecules
+
 
 ```
 
