@@ -135,7 +135,7 @@ skills: 1
 See also https://tldr.ostera.io/
 
 **Practice**
-https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-data?ex=1
+<a>https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-data?ex=1</a>
 
 `@instructions`
 
