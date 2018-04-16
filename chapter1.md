@@ -1,5 +1,5 @@
 ---
-title: Shell basics
+title: Navigating the file directory
 description: navigating files and directories
 
 ---
