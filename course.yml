@@ -1,4 +1,4 @@
-title: Course Title Here
-description: A description of the course.
-programming_language: python
-from: python-base-prod:21
+title: Introduction to the shell at Princeton Public Library.
+description: The very basics of shell for beginners.
+programming_language: shell
+from: shell-base-prod:22
