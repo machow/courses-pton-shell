@@ -1,6 +1,6 @@
 ---
 title       : Working with file contents
-description : How to view files
+description : How to view files. For more exercises, go to https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-data?ex=1
 ---
 ## Viewing the contents of files
 
@@ -135,7 +135,8 @@ skills: 1
 See also https://tldr.ostera.io/
 
 **Practice**
-<a>https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-data?ex=1</a>
+
+[DataCamp Shell Course Chapter 2](https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-data?ex=1)
 
 `@instructions`
 
