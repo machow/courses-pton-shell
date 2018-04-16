@@ -7,7 +7,7 @@ description: Test
 
 ```yaml
 type: NormalExercise
-lang: python
+lang: shell
 xp: 100
 skills: 2
 key: f82a0baaef
@@ -24,12 +24,12 @@ key: f82a0baaef
 ```
 
 `@sample_code`
-```{python}
+```{shell}
 
 ```
 
 `@solution`
-```{python}
+```{shell}
 
 ```
 
