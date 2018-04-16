@@ -13,6 +13,9 @@ skills: 2
 key: f82a0baaef
 ```
 
+We'll be using this DataCamp course for practice:
+
+https://campus.datacamp.com/courses/introduction-to-shell-for-data-science
 
 `@instructions`
 
@@ -253,6 +256,10 @@ lang: shell
 xp: 100
 skills: 1
 ```
+
+**Practice**
+
+https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-files-and-directories?ex=3
 
 
 `@instructions`
