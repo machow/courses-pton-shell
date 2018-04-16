@@ -1,6 +1,6 @@
 ---
 title: Navigating the file directory
-description: navigating files and directories
+description: Navigating files and directories. Go [here](https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/manipulating-files-and-directories?ex=3) for practice.
 
 ---
 ## Sample exercise
