@@ -61,3 +61,63 @@ ls data-shell
 ```{python}
 
 ```
+
+---
+## Changing directories
+
+```yaml
+type: NormalExercise
+key: 5b4b932598
+lang: shell
+xp: 100
+skills: 1
+```
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{shell}
+repl = connect('bash')
+repl.run_command("cd data-shell")
+repl.run_command("clear history")
+```
+
+`@sample_code`
+```{shell}
+# check the path of the current directory
+
+
+# move up into the creatures directory
+
+
+# what files are in it?
+
+
+# move back down into the starting directory
+
+
+```
+
+`@solution`
+```{shell}
+# check the path of the current directory
+pwd
+
+# move up into the creatures directory
+cd creatures
+
+# what files are in it?
+ls
+
+# move back down into the starting directory
+cd ..
+
+```
+
+`@sct`
+```{shell}
+
+```
