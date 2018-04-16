@@ -1,4 +1,4 @@
 title: Introduction to the shell at Princeton Public Library.
-description: The very basics of shell for beginners.
+description: The very basics of shell for beginners. See https://swcarpentry.github.io/shell-novice.
 programming_language: shell
 from: shell-base-prod:22
