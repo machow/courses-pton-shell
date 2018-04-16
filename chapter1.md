@@ -17,6 +17,12 @@ We'll be using this DataCamp course for practice:
 
 https://campus.datacamp.com/courses/introduction-to-shell-for-data-science
 
+Other Materials:
+
+* [Software Carpentry Shell Course](https://swcarpentry.github.io/shell-novice)
+* [Shell Setup Instructions](https://swcarpentry.github.io/shell-novice/setup.html)
+* [tldr shell](https://tldr.ostera.io)
+
 `@instructions`
 
 `@hint`
