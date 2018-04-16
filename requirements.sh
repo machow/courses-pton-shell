@@ -6,8 +6,8 @@ cd /home/repl
 apt-get update
 apt-get install -y unzip
 
-curl https://swcarpentry.github.io/shell-novice/data/data-shell.zip -O
-unzip data-shell.zip
+sudo -u repl curl https://swcarpentry.github.io/shell-novice/data/data-shell.zip -O
+sudo -u repl unzip data-shell.zip
 rm data-shell.zip
 
 echo "export PS1='$ '" >> .bashrc
