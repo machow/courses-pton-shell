@@ -96,3 +96,118 @@ grep "S" data/amino-acids.txt > acids.txt
 ```{shell}
 
 ```
+
+---
+## Piping results
+
+```yaml
+type: NormalExercise
+key: 580c1031b9
+lang: shell
+xp: 100
+skills: 1
+```
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{shell}
+repl = connect('bash')
+repl.run_command("cd data-shell/data")
+```
+
+`@sample_code`
+```{shell}
+# get the lines of planets.txt that have WASP in them
+
+
+# pass those results to wc (short for word count)
+
+
+# how could you count all the lines of planets.txt?
+
+
+```
+
+`@solution`
+```{shell}
+# get the lines of planets.txt that have WASP in them
+grep "WASP" planets.txt
+
+# pass those results to wc (short for word count)
+grep "WASP" planets.txt | wc
+
+# how could you count all the lines of planets.txt?
+cat planets.txt | wc
+# or
+wc planets.txt
+
+# read the manual of wc to see what options you can use
+
+
+```
+
+`@sct`
+```{shell}
+
+```
+
+---
+## Wildcards
+
+```yaml
+type: NormalExercise
+key: 62f80436e0
+lang: shell
+xp: 100
+skills: 1
+```
+
+* `?` - question mark
+* `*` - glob
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{shell}
+repl = connect('bash')
+repl.run_command("cd data-shell/data")
+
+```
+
+`@sample_code`
+```{shell}
+# list all files that start with p
+
+
+# use a glob to match all files that end with ane.pdb
+
+
+# use multiple question marks to do the same thing
+
+
+```
+
+`@solution`
+```{shell}
+# list all files that start with p
+ls p*
+
+# use a glob to match all files that end with ane.pdb
+ls *ane.pdb
+
+# use multiple question marks to do the same thing
+ls ???ane.pdb
+
+
+```
+
+`@sct`
+```{shell}
+
+```
