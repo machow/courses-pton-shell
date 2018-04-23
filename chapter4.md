@@ -115,6 +115,7 @@ xp: 100
 skills: 1
 ```
 
+see https://campus.datacamp.com/courses/introduction-to-shell-for-data-science/batch-processing?ex=4
 
 `@instructions`
 
