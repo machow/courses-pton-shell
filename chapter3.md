@@ -212,6 +212,59 @@ ls ???ane.pdb
 
 ```
 
+
+---
+## Downloading from the internet
+
+```yaml
+type: NormalExercise
+key: 993d78680a
+lang: shell
+xp: 100
+skills: 1
+```
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{shell}
+
+```
+
+`@sample_code`
+```{shell}
+# download a site from the internet
+
+
+# use less to browse through it
+
+
+# search it for the word "href"
+
+
+```
+
+`@solution`
+```{shell}
+# download a site from the internet, store result as example.txt
+curl http://example.com > example.txt
+
+# use less to browse through it
+less example.txt
+
+# search it for the word "href"
+grep "href" example.txt
+
+
+```
+
+`@sct`
+```{shell}
+
+```
 ---
 ## Editing files
 
@@ -237,7 +290,7 @@ repl.run_command("cd data-shell/data")
 
 `@sample_code`
 ```{shell}
-# get all amino-acids with a "D" in them, save result as d_acids.txt
+# get all amino-acids with a "G" in them, save result as d_acids.txt
 
 
 # use nano to open the file, try making a change, then save
@@ -247,11 +300,12 @@ repl.run_command("cd data-shell/data")
 
 `@solution`
 ```{shell}
-# get all amino-acids with a "D" in them, save result as d_acids.txt
-
+# get all amino-acids with a "G" in them, save result as d_acids.txt
+grep "G" amino-acids.txt > d_acids.txt
 
 # use nano to open the file, try making a change, then save
-
+# press ctrl+x, then y to close
+nano d_acids.txt
 
 
 ```
