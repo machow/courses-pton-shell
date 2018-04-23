@@ -103,3 +103,58 @@ bash example.sh
 ```{shell}
 
 ```
+
+---
+## For loops
+
+```yaml
+type: NormalExercise
+key: 74b766d8fc
+lang: shell
+xp: 100
+skills: 1
+```
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{shell}
+with open('downloader.sh', 'w') as f: f.write('''
+echo "downloading $@"
+curl "$@" > "$@".txt
+''')
+```
+
+`@sample_code`
+```{shell}
+# use a for loop to print out a b c
+
+
+
+# use a for loop to run downloader.sh over example.com, and python.org
+
+
+
+
+```
+
+`@solution`
+```{shell}
+# use a for loop to print out a b c
+for ii in a b c
+  do echo $ii
+done
+
+# use a for loop to run downloader.sh over example.com, and python.org
+for ii in example.com python.org
+  do downloader.sh $ii
+done
+```
+
+`@sct`
+```{shell}
+
+```
