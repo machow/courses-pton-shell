@@ -74,12 +74,21 @@ repl.run_command("cd data-shell")
 
 `@sample_code`
 ```{shell}
-cd data-shell
-head -n 4 data/amino-acids.txt > top.txt
+# search for amino acids starting with S
+
+
+# now put the matching acids into a file named acids.txt
+
+
 ```
 
 `@solution`
 ```{shell}
+# search for amino acids starting with S
+grep "S" data/amino-acids.txt
+
+# now put the matching acids into a file named acids.txt
+grep "S" data/amino-acids.txt > acids.txt
 
 ```
 
