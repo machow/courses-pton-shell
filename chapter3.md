@@ -211,3 +211,52 @@ ls ???ane.pdb
 ```{shell}
 
 ```
+
+---
+## Editing files
+
+```yaml
+type: NormalExercise
+key: 4ce035015f
+lang: shell
+xp: 100
+skills: 1
+```
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{shell}
+repl = connect('bash')
+repl.run_command("cd data-shell/data")
+
+```
+
+`@sample_code`
+```{shell}
+# get all amino-acids with a "D" in them, save result as d_acids.txt
+
+
+# use nano to open the file, try making a change, then save
+
+
+```
+
+`@solution`
+```{shell}
+# get all amino-acids with a "D" in them, save result as d_acids.txt
+
+
+# use nano to open the file, try making a change, then save
+
+
+
+```
+
+`@sct`
+```{shell}
+
+```
