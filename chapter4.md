@@ -145,12 +145,19 @@ curl "$@" > "$@".txt
 ```{shell}
 # use a for loop to print out a b c
 for ii in a b c
-  do echo $ii
+do echo $ii
 done
 
 # use a for loop to run downloader.sh over example.com, and python.org
 for ii in example.com python.org
-  do downloader.sh $ii
+  do bash downloader.sh $ii
+done
+
+# note, for multiple commands can use
+for ii in a b c
+do
+  echo $ii
+  echo "something else"
 done
 ```
 
